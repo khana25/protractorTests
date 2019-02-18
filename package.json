@@ -12,6 +12,7 @@
   "bugs": {
     "url": "https://github.com/khana25/protractorTests/issues"
   },
+  "homepage": "https://github.com/khana25/protractorTests",
   "dependencies": {
     "protractor": "^5.4.2"
   },
