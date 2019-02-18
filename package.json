@@ -4,11 +4,18 @@
   "description": "End-to-End Testing with Protactor",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/protractor config.js",
+    "start": "./node_modules/protractor/bin/protractor config.js"
   },
   "author": "Ayub Khan",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khana25/protractorTests/issues"
+  },
   "dependencies": {
     "protractor": "^5.4.2"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0"
   }
 }

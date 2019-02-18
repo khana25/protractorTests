@@ -1,4 +1,5 @@
 var helper = require('./helper');
+var faker = require('faker');
 
 describe('Main page : Login/register', function() {
 
@@ -9,6 +10,10 @@ describe('Main page : Login/register', function() {
     afterEach(function() {
         browser.manage().deleteAllCookies();
     });
+
+    var randomFirstName = faker.name.firstName();
+    var password = faker.internet.password();
+    var email = faker.internet.email();
 
     it('should have a little', function () {
 
@@ -53,9 +58,9 @@ describe('Main page : Login/register', function() {
         registerButtonMainPage.click();
         helper.waitUntilReady(firstName);
 
-        registerEmail.sendKeys('automation.test@test.com');
-        firstName.sendKeys('TestAtuotmation');
-        registerPassword.sendKeys('Password1');
+        registerEmail.sendKeys(email);
+        firstName.sendKeys(randomFirstName);
+        registerPassword.sendKeys(password);
         etsy_finds.click();
         helper.waitUntilReady(registerButtonFieldPopup);
         // registerButtonFieldPopup.click();
