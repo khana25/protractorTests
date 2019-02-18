@@ -1,0 +1,14 @@
+{
+  "name": "udemy-protactor",
+  "version": "1.0.0",
+  "description": "End-to-End Testing with Protactor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ayub Khan",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.4.2"
+  }
+}
