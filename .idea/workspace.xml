@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e94875d1-b200-4b87-bbc7-1e92fa077b2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cart.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/cart/cart.po.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/common/common.po.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/home/home.po.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/search/search.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart/cart.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.spec.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,16 +31,16 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="js" value="6" />
-          <entry key="json" value="6" />
+          <entry key="js" value="11" />
+          <entry key="json" value="7" />
           <entry key="protractor" value="1" />
           <entry key="ts" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="6" />
-          <entry key="JavaScript" value="6" />
+          <entry key="JSON" value="7" />
+          <entry key="JavaScript" value="11" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="TypeScript" value="1" />
         </counts>
@@ -43,14 +48,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="55" />
-          <entry key="js" value="2515" />
+          <entry key="js" value="4348" />
           <entry key="json" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="95" />
-          <entry key="JavaScript" value="2515" />
+          <entry key="JavaScript" value="4348" />
           <entry key="PLAIN_TEXT" value="55" />
         </counts>
       </usages-collector>
@@ -63,29 +68,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="180">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec.js">
+        <entry file="file://$PROJECT_DIR$/pages/common/common.po.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="94" lean-forward="true" selection-start-line="40" selection-start-column="94" selection-end-line="40" selection-end-column="94" />
+            <state relative-caret-position="75">
+              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cart.spec.js">
+        <entry file="file://$PROJECT_DIR$/pages/home/home.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+            <state>
+              <caret column="37" selection-start-column="37" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/home/home.po.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -104,7 +118,15 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/cart.spec.js" />
         <option value="$PROJECT_DIR$/spec.js" />
+        <option value="$PROJECT_DIR$/search.spec.js" />
+        <option value="$PROJECT_DIR$/pages/search/search.spec.js" />
+        <option value="$PROJECT_DIR$/pages/common/common.po.js" />
+        <option value="$PROJECT_DIR$/pages/cart/cart.po.js" />
+        <option value="$PROJECT_DIR$/pages/cart/cart.spec.js" />
+        <option value="$PROJECT_DIR$/pages/login/login.spec.js" />
         <option value="$PROJECT_DIR$/config.js" />
+        <option value="$PROJECT_DIR$/pages/home/home.spec.js" />
+        <option value="$PROJECT_DIR$/pages/home/home.po.js" />
       </list>
     </option>
   </component>
@@ -157,6 +179,35 @@
               <item name="udemy-protactor" type="b2602c69:ProjectViewProjectNode" />
               <item name="udemy-protactor" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="udemy-protactor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="udemy-protactor" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="udemy-protactor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="udemy-protactor" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="udemy-protactor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="udemy-protactor" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="udemy-protactor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="udemy-protactor" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="udemy-protactor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="udemy-protactor" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -171,6 +222,14 @@
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
+      <recent name="$PROJECT_DIR$/login" />
+      <recent name="$PROJECT_DIR$/search" />
+      <recent name="$PROJECT_DIR$/cart" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -197,12 +256,12 @@
       <updated>1549213801090</updated>
       <workItem from="1549213804002" duration="394000" />
       <workItem from="1549815305861" duration="5238000" />
-      <workItem from="1550489647741" duration="5170000" />
+      <workItem from="1550489647741" duration="12959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10802000" />
+    <option name="totallyTimeSpent" value="18591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="725" extended-state="0" />
@@ -247,13 +306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -264,6 +316,34 @@
     <entry file="file://$PROJECT_DIR$/node_modules/.bin/protractor">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/search/search.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/common/common.po.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/cart/cart.po.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/cart/cart.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -271,24 +351,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="94" lean-forward="true" selection-start-line="40" selection-start-column="94" selection-end-line="40" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cart.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="180">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/home/home.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/home/home.po.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
