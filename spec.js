@@ -2,15 +2,22 @@ var helper = require('./helper');
 
 describe('Main page : Login/register', function() {
 
-    it('should have a little', function () {
+    beforeEach(function() {
         browser.get(browser.params.url);
-   
+    });
+
+    afterEach(function() {
+        browser.manage().deleteAllCookies();
+    });
+
+    it('should have a little', function () {
+
+
         var title = 'Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone';
         expect(browser.getTitle()).toEqual(title);
     });
 
     it('should sign-in and verify password error appear', function(){
-        browser.get(browser.params.url);
         var signInButton = element(by.id('sign-in'));
         var signInLoginForm = element(by.name('submit_attempt'));
 
@@ -30,12 +37,11 @@ describe('Main page : Login/register', function() {
         var passExistingErrorText = passwordExisitingError.getText();
 
         expect(passExistingErrorText).toBe('Password was incorrect.');
-       // passwordExisitingError.toBe('Password was incorrect.');
+        // passwordExisitingError.toBe('Password was incorrect.');
 
     });
 
     it('should reguster a new user', function() {
-        browser.get(browser.params.url);
 
         var registerButtonMainPage = element(by.id('register'));
         var registerEmail = element(by.id('join_neu_email_field'));
@@ -52,7 +58,7 @@ describe('Main page : Login/register', function() {
         registerPassword.sendKeys('Password1');
         etsy_finds.click();
         helper.waitUntilReady(registerButtonFieldPopup);
-       // registerButtonFieldPopup.click();
+        // registerButtonFieldPopup.click();
 
 
     });
